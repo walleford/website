@@ -1,0 +1,49 @@
+.examples__container {
+    display: flex;
+}
+
+.example__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.example__content a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+.example__child {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 300px;
+    padding-bottom: 6rem;
+}
+
+.examples__p {
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.04rem;
+    margin: auto;
+    align-content: center;
+    padding-left: 25%;
+    padding-right: 40px;
+}
+
+.examples__image {
+    margin: auto;
+    width: 70%;
+    height: 50%;
+}
+
+.examples__employee {
+    margin: auto;
+    width: 40%;
+    height: 80%;
+}
